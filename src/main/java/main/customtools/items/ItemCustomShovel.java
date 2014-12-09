@@ -2,10 +2,10 @@ package main.customtools.items;
 
 import main.customtools.CustomTools;
 import main.customtools.ModInformation;
-import net.minecraft.item.ItemPickaxe;
+import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemStack;
 
-public class ItemCustomShovel extends ItemPickaxe
+public class ItemCustomShovel extends ItemSpade
 {
    private String displayName;
    

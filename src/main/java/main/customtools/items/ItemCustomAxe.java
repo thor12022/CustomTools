@@ -2,10 +2,10 @@ package main.customtools.items;
 
 import main.customtools.CustomTools;
 import main.customtools.ModInformation;
-import net.minecraft.item.ItemPickaxe;
+import net.minecraft.item.ItemAxe;
 import net.minecraft.item.ItemStack;
 
-public class ItemCustomAxe extends ItemPickaxe
+public class ItemCustomAxe extends ItemAxe
 {
    private String displayName;
    
