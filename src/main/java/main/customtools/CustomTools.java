@@ -21,7 +21,6 @@ import main.customtools.items.ItemCustomAxe;
 import main.customtools.items.ItemCustomPick;
 import main.customtools.items.ItemCustomShovel;
 import main.customtools.proxies.CommonProxy;
-import main.customtools.util.EventHandler;
 import main.customtools.util.TextHelper;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -123,7 +122,6 @@ public class CustomTools
          GameRegistry.registerItem(shovels[count], "customShovel"+count);
       }
       
-      MinecraftForge.EVENT_BUS.register(new EventHandler());
       NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandler());
 
    }
